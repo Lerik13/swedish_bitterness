@@ -501,8 +501,8 @@ body{
 }
 
 .history{
-  padding-top: 270px;  
-  margin-bottom: 200px;
+  padding-top: 270px;
+  margin-bottom: 50px; 
 }
 .history__wrapper{
   background-image: url(../images/alonso.jpg);
@@ -564,4 +564,41 @@ body{
 .history__form button{
   width: 100%;
   margin-top: 30px;
+}
+
+.quote{
+  min-height: 620px;
+  background-image: url(../images/quotebg-left.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left center;
+}
+.quote__wrapper{
+  padding: 150px 0px 100px;
+  background-image: url(../images/quotebg-right.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right center;
+  min-height: 620px;
+}
+.quote__inner{
+  max-width: 770px;
+  padding: 50px 0;
+  border-top: 1px solid #a4c58c;
+  border-bottom: 1px solid #a4c58c;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 700;
+}
+.author{
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.author span{
+  font-size: 16px;
+  color: #9a9a9a;
 }
