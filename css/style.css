@@ -602,3 +602,58 @@ body{
   font-size: 16px;
   color: #9a9a9a;
 }
+
+.items__title{
+  padding: 100px 0;
+  max-width: 525px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.items__wrapper{
+  background-color: #f6f9f3;
+  min-height: 385px;
+}
+.items__inner{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #fff;
+  max-width: 1010px;
+  margin: 0 auto;
+  position: relative;
+  top: -70px;
+}
+.item{
+  width: 312px;
+  min-height: 312px;
+  border: 1px solid #e4eeee;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item__number{
+  position: absolute;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 115px;
+  color: #f7f9f3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.item__content{
+  position: relative;
+  text-align: center;
+}
+.item__content-img{
+  margin-top: 30px;
+}
+.item__content-title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;  
+  padding: 0 10px 10px;
+}
