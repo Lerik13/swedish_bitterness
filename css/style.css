@@ -481,7 +481,8 @@ body{
 }
 .popularity__box-link,
 .composition__link-btn,
-.reviews__link-popup{  
+.reviews__link-popup,
+.build__link{  
   background-color: #7eb252;
   padding: 22px 85px 22px 27px;
   outline: none;
@@ -495,7 +496,8 @@ body{
 }
 .popularity__box-link::after,
 .composition__link-btn::after,
-.reviews__link-popup::after{
+.reviews__link-popup::after,
+.build__link::after{
   content: '';
   background-image: url(../images/arrow-right.png);
   width: 31px;
@@ -958,4 +960,47 @@ body{
   font-weight: 700;
   text-decoration: none;
   border-bottom: 1px solid #7eb152;
+}
+
+.build__wrapper{
+  padding: 60px 0 55px;
+  background-image: url(../images/build.jpg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  min-height: 700px;
+}
+.build__content{
+  display: flex;
+  justify-content: flex-end;
+}
+.build__inner{
+  padding: 20px;
+  max-width: 685px;  
+}
+.build__inner-box{
+  border: 1px solid #c8dcba;
+  padding: 60px 45px 70px 70px;
+  background-color: #fff;
+}
+.build_title{
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+.build__text p{
+  margin: 10px 0;
+}
+.build__text span{  
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 40px 0 50px;
+  display: inline-block;
+}
+.build__link{
+  position: relative;
+}
+.build__link::after{
+  top: 27px;
 }
