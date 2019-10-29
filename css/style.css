@@ -23,7 +23,8 @@ body{
    overflow: hidden; 
 }
 
-.header__inner{
+.header__inner,
+.footer__inner{
   display: flex;
   justify-content: space-between;
   height: 105px;
@@ -37,16 +38,19 @@ body{
   font-size: 16px;
 }
 
-.header__phone{
+.header__phone,
+.footer__phone{
   font-weight: 500;
   font-size: 20px;
 }
-.header__phone a{
+.header__phone a,
+.footer__phone a{
   color: #303030;
   text-decoration: none;
   position: relative;
 }
-.header__phone a:before{
+.header__phone a::before,
+.footer__phone a::before{
   content: '';
   background-image: url(../images/phone.svg);
   width: 15px;
@@ -55,12 +59,18 @@ body{
   left: -27px;
   top: 5px;
 }
-.header__phone-text{
+.header__phone-text,
+.footer__phone-text{
   font-weight: 400;
   font-size: 12px;
   color: #9a9a9a;
   text-align: right;
   padding-top: 3px;
+}
+.footer__link{
+  text-decoration: underline;
+  color: #9a9a9a;
+  font-size: 12px;
 }
 
 .top{
