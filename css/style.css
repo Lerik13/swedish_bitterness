@@ -110,6 +110,7 @@ body{
 }
 .top__inner-title{
   font-size: 60px;
+  line-height: 60px;
   margin-bottom: 40px;
   font-weight: 600;
   color: #fff;
@@ -159,6 +160,12 @@ body{
   color: #c8dcba;
 }
 
+.mobile__link-btn{
+  display: none;
+  width: 100%;
+  text-align: center;
+  padding: 22px 1 5px;
+}
 .top-form button{
   position: absolute;
   right: 0;
@@ -234,7 +241,7 @@ body{
   line-height: 50px;
   max-width: 470px;
   margin-bottom: 30px;
-  margin-top: 40px;
+  padding-top: 40px;
 }
 .tabs__content{
   min-width: 500px;
@@ -358,7 +365,7 @@ body{
 }
 .tabs__box .tab{
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   width: 50%;
   text-transform: none;
   display: flex;
@@ -493,7 +500,8 @@ body{
 .composition__link-btn,
 .reviews__link-popup,
 .build__link,
-.certificate__link{  
+.certificate__link,
+.mobile__link-btn{  
   background-color: #7eb252;
   padding: 22px 85px 22px 27px;
   outline: none;
