@@ -76,6 +76,9 @@ body{
 .top{
   margin-bottom: 75px;
 }
+.mobile-bg{
+  display: none;
+}
 .top__images{
   background-image: url(../images/top-bg.jpg);
   min-height: 545px;
