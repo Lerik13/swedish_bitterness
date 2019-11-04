@@ -17,6 +17,16 @@
   }
 }
 @media (max-width: 1230px){
+  .reviews-text:nth-child(even){
+    /* padding-left: 70px; */
+    display: none;
+  }
+/*   .reviews-text:nth-child(even)::before{
+    left: 70px;
+  } */
+  .reviews-text{
+    max-width: 100%;
+  }  
   .popularity__wrapper{
     background-image: none;
   }
@@ -201,9 +211,21 @@
   }
 }
 @media (max-width: 940px){
+  .reviews__link{
+    flex-direction: column;
+    margin-top: -192px;
+  }
+  .reviews__link-tab{
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+  .reviews__content{
+    padding-bottom: 150px;
+  }
+
   .top__inner-form{
     position: absolute;
-    right: 15px;    
+    right: 15px;     
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -232,6 +254,14 @@
   }  
 }
 @media (max-width: 768px){
+  .reviews__title{
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .reviews__title br{
+    display: none;
+  }
   .header__text{
     font-size: 14px;
   }
@@ -341,6 +371,33 @@
   }
   .advantages__item{
     padding-right: 30px;
+  }
+}
+@media (max-width: 740px){
+  .reviews-text{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .reviews-text:nth-child(odd){
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .reviews-text:nth-child(odd)::before{
+    left: 0;
+  }
+  .reviews__link-popup{
+    width: 100%;
+    text-align: center;
+    padding: 22px 5px;
+  }
+  .reviews__link-popup::after{
+    display: none;
+  }
+  .reviews__tab{
+    width: 49%;
+    text-align: center;
+    padding: 25px 5px;
+    
   }
 }
 @media (max-width: 700px){
@@ -576,6 +633,10 @@
   } 
 }
 @media (max-width: 360px){
+  .reviews__title{
+    font-size: 24px;
+    line-height: 30px;
+  }
   .top__images{
     min-height: 375px;
   }
@@ -655,8 +716,8 @@
     line-height: 24px;
   }
   .composition__link-btn{
-    left: -20px; 
-    right: -20px;
+    left: -10px; 
+    right: -10px;
     padding: 22px 10px;
     text-align: center;
     bottom: auto; 
