@@ -131,6 +131,10 @@
   }
 }
 @media (max-width: 1040px){
+  .footer__phone,
+  .footer__logo{
+    display: none;
+  }
   .top__inner-img{
     margin-left: 0;
   }
@@ -147,6 +151,9 @@
     margin-left: 7px;
     margin-right: 7px;
     width: 33.3333%;
+  }
+  .certificate__content{
+    padding-left: 0;
   }
 }
 @media (max-width: 1000px){
@@ -251,7 +258,33 @@
   }
   .composition__link{
     order: 2;
-  }  
+  }
+  .certificate__inner{
+    height: 100%;
+    display: block;    
+  }
+  .certificate__title{
+    text-align: center;
+  }
+  .certificate__text{
+    padding-right: 0;
+    text-align: center;
+  }
+  .certificate__content{
+    max-width: 100%;
+    margin-right: 0;
+  }
+  .certificate__images{
+    padding: 25px 0;
+    text-align: center;
+    top: 0;
+  }
+  .certificate__images img{
+    position: static;
+  }
+  .certificate{
+    padding-top: 50px;
+  }
 }
 
 @media (max-width: 840px){
@@ -270,6 +303,11 @@
   }
 }
 @media (max-width: 768px){
+  .footer__inner{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
   .reviews__title{
     text-align: center;
     font-size: 30px;
@@ -592,6 +630,17 @@
   }
 }
 @media (max-width: 480px){
+  .certificate__box fieldset{
+    padding: 45px 10px 95px 10px;
+  }
+  .certificate__title{
+    font-size: 24px;    
+    line-height: 30px;
+  }
+  .certificate__images img{
+    max-width: 100%;
+    width: 100%;
+  } 
   .header__phone{
     font-size: 14px;
   }
@@ -677,6 +726,32 @@
 }
 
 @media (max-width: 360px){
+  .certificate{
+    background-color: #f6f9f3;
+  }
+  .certificate__box{
+    padding: 0;
+    background-color: #f6f9f3;
+  }
+  .certificate__box fieldset{
+    border: none;
+    padding: 0;
+  }
+  .certificate__box legend{
+    text-align: center;
+    font-weight: 700;
+  }
+  .certificate__link{
+    padding: 22px 5px;  
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    position: static;
+  }
+  .certificate__link::after{
+    display: none;
+  }
   .reviews__title{
     font-size: 24px;
     line-height: 30px;
